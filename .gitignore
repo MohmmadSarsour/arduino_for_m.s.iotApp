@@ -1,0 +1,66 @@
+# Arduino Build Files
+*.hex
+*.elf
+*.bin
+*.map
+*.lst
+*.sym
+*.lss
+*.eep
+
+# Arduino IDE
+.build/
+.cache/
+*.autosave
+*.bak
+*~
+*.swp
+*.tmp
+
+# Platform.io
+.pio/
+.vscode/.browse.c_cpp.db*
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# IDE specific
+.vscode/
+.idea/
+*.sublime-*
+
+# Git
+.git/
+
+# Keep these folders but ignore contents except .gitkeep
+examples/.build/
+templates/.build/
+boards/**/.build/
+
+# Credentials - IMPORTANT: Never commit WiFi passwords!
+*_credentials.h
+*_secrets.h
+wifi_config.h
